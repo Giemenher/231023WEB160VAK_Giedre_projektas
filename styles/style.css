@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  
+}
+header.header {
+    display: flex;
+width: vw;
+height: 83px;
+justify-content: space-between;
+align-items: center;
+border: 1px solid var(--Black, #121212);
+}
+
+.menu-left {
+display: flex;
+align-items: flex-start;
+}
+  
+.menu-right {
+    display: flex;
+    align-items: flex-start;
+    }
+
+.nav-link {
+    display: flex;
+    width: 180px;
+    height: 83px;
+    padding: 32px 24px;
+    justify-content: center;
+    align-items: center;
+
+    /* display: flex;
+  width: 180px;
+  padding: 32px 24px;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua; */
+  /* border-style: solid, black, 2px; */
+  border: 1px solid var(--Black, #121212);
+}
+
+.hero {
+display: flex;
+align-items: flex-start;
+width: vw;
+height: 1800px;
+}
+
+.hero-left {
+    border: 1px solid var(--Black, #121212);
+    padding: 80px;
+    width:50%;
+    height: 720px;
+    background-color: rgb(80, 80, 105); 
+    /* spalvos ant divų uždėtos, kad matyčiau ribas, borderių šonus sutvarkysiu vėliau, kad nesidubliuotų */
+}
+.hero-right {
+
+    border: 1px solid var(--Black, #121212);
+    width: 50%;
+    height: 720px;
+}
+.left-up {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+flex: 1 0 0;
+align-self: stretch;
+border-bottom: 1px solid var(--Black, #121212); 
+background-color: rgb(128, 137, 112);
+
+}
+#Title {
+   font-size: 46px;
+}
+
+#hero-text {
+    color: var(--black-brightness-90, rgba(18, 18, 18, 0.90));
+/* font-size: 18px; */
+font-style: normal;
+line-height: 140%; /* 25.2px */
+}
+
+.left-down {
+display: flex;
+padding-top: 24px;
+justify-content: flex-end;
+align-items: flex-end;
+flex: 1 0 0;
+align-self: stretch;
+background-color: rgb(189, 216, 142);
+
+    
+}
+.hero-img {
+    
+    padding-right: 24px;
+    border-right:1px solid var(--Black, #121212); 
+}
+.left-down-text {
+   
+    display: flex;
+    padding-left: 24px;
+   
+}   
